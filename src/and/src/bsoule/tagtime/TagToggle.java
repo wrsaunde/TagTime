@@ -53,7 +53,7 @@ public class TagToggle extends Button {
 	public void setChecked(boolean state) {
 		selected = state;
 		if (selected) {
-			setBackgroundResource(R.drawable.tagbuttononbmp);
+			setBackgroundResource(R.drawable.tagbuttononpng);
 			setTextColor(mRes.getColor(R.color.tag_selected_text));
 		} else {
 			setBackgroundResource(R.drawable.tagbuttonoffpng);
